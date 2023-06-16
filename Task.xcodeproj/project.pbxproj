@@ -49,54 +49,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E92F43EC2A25D00F0087B3D0 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E9C574042A000310007A42BD /* Task.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		E92F43ED2A25D0230087B3D0 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				E9C6C3602A0E8D6900B17641 /* TaskManager.swift */,
-			);
-			name = Manager;
-			sourceTree = "<group>";
-		};
-		E92F43EE2A25D03A0087B3D0 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E9E52AE12A1067B900ABD470 /* AddTaskViewController.swift */,
-				E9C574122A000EB8007A42BD /* CompletedListViewController.swift */,
-				E9E52AE32A1072B800ABD470 /* TaskDetailViewController.swift */,
-				E9C574062A000493007A42BD /* TaskListViewController.swift */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		E92F43EF2A25D09F0087B3D0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E9C5740E2A000D94007A42BD /* TaskTabBarController.swift */,
-				E9C5740A2A000795007A42BD /* TaskCell.swift */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		E92F43F02A25D0B10087B3D0 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				E9C573F02A00014C007A42BD /* AppDelegate.swift */,
-				E9C573F22A00014C007A42BD /* SceneDelegate.swift */,
-				E9C573F92A00014D007A42BD /* Assets.xcassets */,
-				E9C573FB2A00014D007A42BD /* LaunchScreen.storyboard */,
-				E9C573FE2A00014D007A42BD /* Info.plist */,
-			);
-			name = Support;
-			sourceTree = "<group>";
-		};
 		E9C573E42A00014C007A42BD = {
 			isa = PBXGroup;
 			children = (
@@ -116,13 +68,61 @@
 		E9C573EF2A00014C007A42BD /* Task */ = {
 			isa = PBXGroup;
 			children = (
-				E92F43EE2A25D03A0087B3D0 /* Controller */,
-				E92F43ED2A25D0230087B3D0 /* Manager */,
-				E92F43EC2A25D00F0087B3D0 /* Models */,
-				E92F43F02A25D0B10087B3D0 /* Support */,
-				E92F43EF2A25D09F0087B3D0 /* View */,
+				E9E897492A3CBAEE00A53452 /* Controller */,
+				E9E8974D2A3CBB2300A53452 /* View */,
+				E9E8974C2A3CBB1C00A53452 /* Support */,
+				E9E8974B2A3CBB1200A53452 /* Models */,
+				E9E8974A2A3CBB0A00A53452 /* Manager */,
 			);
 			path = Task;
+			sourceTree = "<group>";
+		};
+		E9E897492A3CBAEE00A53452 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9E52AE12A1067B900ABD470 /* AddTaskViewController.swift */,
+				E9C574122A000EB8007A42BD /* CompletedListViewController.swift */,
+				E9E52AE32A1072B800ABD470 /* TaskDetailViewController.swift */,
+				E9C574062A000493007A42BD /* TaskListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9E8974A2A3CBB0A00A53452 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E9C6C3602A0E8D6900B17641 /* TaskManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E9E8974B2A3CBB1200A53452 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9C574042A000310007A42BD /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9E8974C2A3CBB1C00A53452 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E9C573F02A00014C007A42BD /* AppDelegate.swift */,
+				E9C573F22A00014C007A42BD /* SceneDelegate.swift */,
+				E9C573F92A00014D007A42BD /* Assets.xcassets */,
+				E9C573FB2A00014D007A42BD /* LaunchScreen.storyboard */,
+				E9C573FE2A00014D007A42BD /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E9E8974D2A3CBB2300A53452 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9C5740E2A000D94007A42BD /* TaskTabBarController.swift */,
+				E9C5740A2A000795007A42BD /* TaskCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
